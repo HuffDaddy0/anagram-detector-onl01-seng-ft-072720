@@ -17,11 +17,11 @@ anagram_index = []
 array2.each_with_index do |sorted_array, i|
   sorted_array == array1 ? anagram_index << i : nil
 end
-winners = angram_index.map do |i|
+winners = angaram_index.map do |i|
   word_array[i]
 end
 end
 
 # array3 = array2.find_all {|sorted_anagram_array| sorted_anagram_array == array1}
-  binding.pry
+  #binding.pry
 end
