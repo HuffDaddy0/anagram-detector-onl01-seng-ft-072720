@@ -17,7 +17,7 @@ anagram_index = []
 array2.each_with_index do |sorted_array, i|
   sorted_array == array1 ? anagram_index << i : nil
 end
-winners = nangram_index.map do |i|
+winners = angram_index.map do |i|
   word_array[i]
 end
 end
