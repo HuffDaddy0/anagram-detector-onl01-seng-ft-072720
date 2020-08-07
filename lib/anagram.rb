@@ -25,4 +25,3 @@ end
 # array3 = array2.find_all {|sorted_anagram_array| sorted_anagram_array == array1}
   binding.pry
 end
-end
